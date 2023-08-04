@@ -1,0 +1,27 @@
+Aqui estão alguns exercícios que podem ser resolvidos utilizando recursão:
+
+Exercício 1: Calculando o Número de Fibonacci
+Implemente uma função recursiva para calcular o N-ésimo número da sequência de Fibonacci. A sequência começa com 0 e 1, e cada número subsequente é a soma dos dois anteriores. A fórmula é: Fibonacci(n) = Fibonacci(n-1) + Fibonacci(n-2)
+
+Exercício 2: Potência de um número
+Implemente uma função recursiva para calcular a potência de um número inteiro `x` elevado a um expoente inteiro `n`. A fórmula é: Potencia(x, n) = x^n
+
+Exercício 3: Soma dos dígitos de um número
+Implemente uma função recursiva que calcule a soma dos dígitos de um número inteiro. Por exemplo, a soma dos dígitos de 123 é 1 + 2 + 3 = 6.
+
+Exercício 4: Verificar se uma palavra é palíndromo
+Implemente uma função recursiva que verifique se uma palavra é um palíndromo, ou seja, se ela permanece a mesma quando lida de trás para frente. Desconsidere espaços e letras maiúsculas/minúsculas. Por exemplo, "ovo" e "Ame a ema" são palíndromos.
+
+Exercício 5: Torre de Hanoi
+Resolva o famoso problema da Torre de Hanoi de forma recursiva. O problema consiste em mover todos os discos de uma torre A para uma torre C, usando uma torre B como auxiliar, seguindo a regra de que nenhum disco maior pode ficar em cima de um disco menor. O número de discos é fornecido como entrada para a função.
+
+Exercício 6: Sequência de Ackermann
+Implemente a função de Ackermann, uma função matemática recursiva que recebe dois números inteiros não negativos `m` e `n` como entrada e retorna um número inteiro. A função é definida como segue:
+
+```
+Ackermann(m, n) = n + 1, se m = 0
+Ackermann(m, n) = Ackermann(m - 1, 1), se m > 0 e n = 0
+Ackermann(m, n) = Ackermann(m - 1, Ackermann(m, n - 1)), se m > 0 e n > 0
+```
+
+Esses são apenas alguns exemplos de exercícios que podem ser resolvidos utilizando recursão. Lembre-se de que a recursão pode ser uma técnica poderosa, mas é importante definir as condições de parada corretas para evitar loops infinitos. Além disso, em alguns casos, o uso de recursão pode não ser a abordagem mais eficiente, mas é sempre útil para fins de aprendizado e compreensão do conceito.
